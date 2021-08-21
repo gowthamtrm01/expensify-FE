@@ -21,6 +21,7 @@ function App() {
       type: "INITIALIZE-EXPENSE",
       payload: res.data
     }))
+    dispatch({ type: "ORDER-BY-DATE" })
   }, [])
 
 

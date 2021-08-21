@@ -18,9 +18,6 @@ const Dashboard = () => {
     const [sortBy, setSortBy] = useState('amount');
     const { state, dispatch } = useContext(expenseContext);
 
-    useEffect(() => {
-        dispatch({ type: "ORDER-BY-DATE" })
-    }, [])
 
     const conversion = (amount) => {
         let number = amount
