@@ -1,3 +1,7 @@
+*{
+  box-sizing: border-box;
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -7,7 +11,148 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.link-title{
+  text-decoration: none;
+  color: inherit;
+  display: inline-block;
+  padding: 0 10px 0 10px;
+}
+
+.link{
+  text-decoration: none;
+  color: inherit;
+  display: inline-block;
+  padding: 0 10px 0 10px;
+  margin: 10px 0;
+  border-top: none;
+  color: #333;
+  display: flex;
+  flex-direction: row;
+  text-decoration: none;
+  padding: 1.2rem;
+  justify-content: space-between;
+}
+
+.link:hover{
+  background-color: #E8E8E8;
+}
+
+.list-header {
+    background: white;
+    border: 1px solid #E8E8E8;
+    color: grey;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+}
+
+.content-container {
+  margin: 0 150px;
+  padding: 0 1.6rem;
+  max-width: 80rem;
+}
+
+.MuiOutlinedInput-input {
+  padding: 18.5px 186px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+}
+
+.text-input {
+  margin: inherit;
+  padding: 1.2rem;
+}
+
+.page-header {
+  margin-bottom: 1rem;
+  padding: 3rem 0;
+  text-align: center;
+}
+
+.page-header__title {
+  font-weight: 300;
+  margin: 0;
+}
+
+.list-title {
+  font-size: 120%;
+}
+
+.list-item__title {
+  margin: 0;
+  word-break: break-all;
+}
+
+.list-item__sub-title {
+  color: #666;
+}
+
+.list-item__data {
+  margin: 1.2rem 0 0 0;  
+}
+
+.input-container {
+  margin: none;
+  padding: 10px 10px;
+  max-width: 80rem;
+  text-align: center;
+}
+
+.input-container input{
+  width: 88ch;
+}
+
+.input-date {
+  color: grey;
+  height: 40px;
+  font-size: 100%;
+  width: 70%;
+}
+
+.input-textarea{
+    border: 1px solid #cacccd;
+    height: 100px;
+    font-size: 130%;
+    font-weight: 300;
+    padding: 1rem 0 0 1.3rem;
+    margin: 10px;
+    width: 70%;
+}
+
+.center {
+  text-align: center;
+  padding: 10px;
+}
+
+.error {
+  color: red
+}
+
+.button {
+  margin-top: 5px;
+}
+
+.button button{
+margin:5px;
+}
+
+.search-bar {
+  margin: 10px 10px 10px 0;
+  display: inline-flex;
+}
+
+.selector {
+  padding: 0 20px;
+}
+
+.select {
+  height: 55px; 
+  width: 150px;
+}
+
+.button-move {
+  padding-left: 180px;
 }
